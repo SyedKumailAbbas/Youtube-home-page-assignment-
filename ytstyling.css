@@ -1,0 +1,76 @@
+
+#topbar {
+    max-height: fit-content;
+    background-color: white;
+    padding-left: 8px;
+    float: left;
+    margin: 10px;
+    width: 100%;
+}
+
+#searchbar {
+    border-radius: 10px;
+    border-right: 0 solid;
+}
+
+#searchbar:focus {
+    border-color: blue;
+
+}
+
+#buttons:hover {
+    background-color: whitesmoke;
+}
+
+#buttons {
+    background-color: white;
+    border: none;
+    padding-left: 0px;
+
+}
+
+#buttonlinesegment {
+    margin-left: 160px;
+    width: fit-content;
+
+}
+
+#linebutton {
+    background-color: whitesmoke;
+    border: 0px;
+    border-radius: 10px;
+    font-size: large;
+
+}
+#linebutton:hover{
+    background-color: lightgrey;
+}
+
+#sidebar {
+    max-height: fit-content;
+    max-width: 9%;
+    background-color: white;
+    margin-left: 10px;
+    float: left;
+    margin: 10px;
+    margin-top: 0%;
+}
+
+#vidrows {
+    background-color: white;
+    width:82%;
+    float: left;
+    padding-left: 10px;
+    margin: 10px;
+    margin-top: 0%;
+    line-height: 200%;
+}
+
+#sidelist {
+    list-style-type: none;
+}
+
+iframe {
+    border-radius: 10px;
+    
+}
